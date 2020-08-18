@@ -1,5 +1,7 @@
 resource Oper =  { 
 	 flags coding=utf8 ;
-	 oper		
-		mkNP : Det -> N -> Adj -> NP = \form,recip -> {s= form ++ recip.s };
+	 oper
+	 	EXPR : Type = {s : Str};
+
+		mkExpr : Str -> EXPR = \form -> {s = form} ;
 }

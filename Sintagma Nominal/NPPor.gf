@@ -3,14 +3,14 @@ concrete NPPor of NP = open Oper in {
       lincat Det, N, Adj, NP = EXPR ;
   
       lin
-        mkNP det n adj = mkExpr (det.s ++ n.s ++ adj.s)
-        The = mkExpr ("o" | "a")
-        This = mkExpr ("este" | "esta")
-        That = mkExpr ("aquele" | "aquela")
-        These = mkExpr ("estes | "estas")
-        Those = mkExpr ("aqueles | "aquelas")
-        Car = mkExpr ("carro")
-        Bike = mkExpr ("bicicleta")
-        Red = mkExpr ("vermelho")
-        Blue = mkExpr ("azul")
+        mkNP det n adj = mkExpr (det.s ++ n.s ++ adj.s) ;
+        The = mkExpr ("o" | "a") ;
+        This = mkExpr ("este" | "esta") ;
+        That = mkExpr ("aquele" | "aquela") ;
+        These = mkExpr ("estes" | "estas") ;
+        Those = mkExpr ("aqueles" | "aquelas") ;
+        Car = mkExpr "carro" ; 
+        Bike = mkExpr "bicicleta" ;
+        Red = mkExpr "vermelho" ;
+        Blue = mkExpr "azul" ;
     }
