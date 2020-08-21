@@ -1,4 +1,4 @@
-concrete HelloFin2 of Hello2 = {
+concrete HelloFin of Hello = {
       lincat Greeting, Recipient = {s : Str} ;
       lin
         Hello recip = {s = "terve" ++ recip.s} ;

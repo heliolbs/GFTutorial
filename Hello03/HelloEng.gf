@@ -1,4 +1,4 @@
-concrete HelloEng03 of Hello03 = open Oper in {
+concrete HelloEng of Hello = open Oper in {
       flags coding=utf8 ;
       lincat Greeting, Recipient = EXPR ;
   

@@ -1,5 +1,5 @@
 -- a "Hello World" grammar
-    abstract Hello03 = {
+    abstract Hello = {
   
       flags startcat = Greeting ;
   

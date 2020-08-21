@@ -1,11 +1,11 @@
 -- a "Hello World" grammar
-    abstract Hello2 = {
+    abstract Hello = {
   
       flags startcat = Greeting ;
   
       cat Greeting ; Recipient ;
   
       fun
-        Hello, GoodMorning : Recipient -> Greeting ;
+        Hello, GoodMorning, GoodAfternoon : Recipient -> Greeting ;
         World, Mum, Friends, Dad, Son, Daughter, Brother, Sister : Recipient ;
     }

@@ -1,4 +1,4 @@
-concrete HelloEng2 of Hello2 = {
+concrete HelloEng of Hello = {
   
       lincat Greeting, Recipient = {s : Str} ;
   
