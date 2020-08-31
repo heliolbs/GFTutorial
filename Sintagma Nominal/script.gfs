@@ -1,0 +1,11 @@
+i NPPor.gf
+i NPEng.gf
+
+p -lang=NPPor "o carro vermelho" 
+
+p -lang=NPPor "a bicicleta azul" | l -lang=NPEng
+
+p -lang=NPEng "this blue bike" 
+
+p -lang=NPEng "that red car" | l -lang=NPPor
+
